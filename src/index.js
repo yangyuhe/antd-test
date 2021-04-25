@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import "antd/dist/antd.css";
 import "./index.css";
-import { Button } from "antd";
 function App() {
   const [count, setCount] = useState(0);
   useEffect(() => {
